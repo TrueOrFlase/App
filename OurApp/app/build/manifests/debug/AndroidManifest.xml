@@ -25,7 +25,6 @@
             </intent-filter>
         </activity>
 
-        <activity android:label="@string/demo_collection" android:name="com.example.android.OurApp.CollectionDemoActivity"/>
 
     </application>
 </manifest>

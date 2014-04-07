@@ -24,31 +24,6 @@
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
-                name="activity_collection_demo"
-                path="C:\Users\hp\Documents\GitHub\App\OurApp\app\src\main\res\layout\activity_collection_demo.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="activity_main"
-                path="C:\Users\hp\Documents\GitHub\App\OurApp\app\src\main\res\layout\activity_main.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="fragment_collection_object"
-                path="C:\Users\hp\Documents\GitHub\App\OurApp\app\src\main\res\layout\fragment_collection_object.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="fragment_section_dummy"
-                path="C:\Users\hp\Documents\GitHub\App\OurApp\app\src\main\res\layout\fragment_section_dummy.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="fragment_section_launchpad"
-                path="C:\Users\hp\Documents\GitHub\App\OurApp\app\src\main\res\layout\fragment_section_launchpad.xml"
-                qualifiers=""
-                type="layout" />
-            <file
                 path="C:\Users\hp\Documents\GitHub\App\OurApp\app\src\main\res\values\strings.xml"
                 qualifiers="" >
                 <string name="demo_collection" >Demo Collection
@@ -60,6 +35,11 @@
                 <string name="demo_external_activity" >Demo External Activity
                 </string>
             </file>
+            <file
+                name="main"
+                path="C:\Users\hp\Documents\GitHub\App\OurApp\app\src\main\res\layout\main.xml"
+                qualifiers=""
+                type="layout" />
         </source>
         <source path="C:\Users\hp\Documents\GitHub\App\OurApp\app\build\res\rs\debug" />
         <source path="C:\Users\hp\Documents\GitHub\App\OurApp\app\build\res\generated\debug" />
