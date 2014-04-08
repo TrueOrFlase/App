@@ -86,23 +86,24 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
                 switch (position)
                 {
                     case 0:
-                        return "课表";
+                        return "";
                     case 1:
-                        return "校园圈";
+                        return "";
                     case 2:
-                        return "约聚";
+                        return "";
                 }
                 return null;
             }
         };
-        actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 
         for (int i = 0; i < pagerAdapter.getCount(); i++)
         {
+
             actionBar.addTab(actionBar.newTab()
                     .setText(pagerAdapter.getPageTitle(i))
                     .setTabListener(this));
         }
+
         mViewPager.setAdapter(pagerAdapter);
         mViewPager.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
             @Override

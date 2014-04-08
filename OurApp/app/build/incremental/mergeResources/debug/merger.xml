@@ -4,6 +4,11 @@
     <dataSet config="main" >
         <source path="C:\Users\hp\Documents\GitHub\App\OurApp\app\src\main\res" >
             <file
+                name="bg"
+                path="C:\Users\hp\Documents\GitHub\App\OurApp\app\src\main\res\drawable\bg.png"
+                qualifiers=""
+                type="drawable" />
+            <file
                 name="ic_launcher"
                 path="C:\Users\hp\Documents\GitHub\App\OurApp\app\src\main\res\drawable-hdpi\ic_launcher.png"
                 qualifiers="hdpi"
@@ -24,22 +29,79 @@
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
-                path="C:\Users\hp\Documents\GitHub\App\OurApp\app\src\main\res\values\strings.xml"
-                qualifiers="" >
-                <string name="demo_collection" >Demo Collection
-                </string>
-                <string name="app_name" >OurApp
-                </string>
-                <string name="dummy_section_text" >Section %1d is just a dummy section.
-                </string>
-                <string name="demo_external_activity" >Demo External Activity
-                </string>
-            </file>
+                name="firstpage"
+                path="C:\Users\hp\Documents\GitHub\App\OurApp\app\src\main\res\layout\firstpage.xml"
+                qualifiers=""
+                type="layout" />
             <file
                 name="main"
                 path="C:\Users\hp\Documents\GitHub\App\OurApp\app\src\main\res\layout\main.xml"
                 qualifiers=""
                 type="layout" />
+            <file
+                name="secondpage"
+                path="C:\Users\hp\Documents\GitHub\App\OurApp\app\src\main\res\layout\secondpage.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="thirdpage"
+                path="C:\Users\hp\Documents\GitHub\App\OurApp\app\src\main\res\layout\thirdpage.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="C:\Users\hp\Documents\GitHub\App\OurApp\app\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="app_name" >OurApp
+                </string>
+            </file>
+            <file
+                path="C:\Users\hp\Documents\GitHub\App\OurApp\app\src\main\res\values\themes.xml"
+                qualifiers="" >
+
+                <style
+                    name="MyActionBarTabs"
+                    parent="@android:style/Widget.Holo.ActionBar.TabView" >
+
+                    <!-- tab indicator -->
+                    <item name="android:background">
+@drawable/actionbar_tab_indicator
+                    </item>
+                </style>
+
+                <style
+                    name="MyActionBar"
+                    parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse" >
+                    <item name="android:background">
+@drawable/bg
+                    </item>
+                </style>
+
+                <style
+                    name="CustomActionBarTheme"
+                    parent="@android:style/Theme.Holo.Light.DarkActionBar" >
+                    <item name="android:actionBarStyle">
+@style/MyActionBar
+                    </item>
+                    <item name="android:actionBarTabStyle">
+@style/MyActionBarTabs
+                    </item>
+                </style>
+            </file>
+            <file
+                name="actionbar_tab_indicator"
+                path="C:\Users\hp\Documents\GitHub\App\OurApp\app\src\main\res\drawable\actionbar_tab_indicator.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="unselected"
+                path="C:\Users\hp\Documents\GitHub\App\OurApp\app\src\main\res\drawable\unselected.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="selected"
+                path="C:\Users\hp\Documents\GitHub\App\OurApp\app\src\main\res\drawable\selected.png"
+                qualifiers=""
+                type="drawable" />
         </source>
         <source path="C:\Users\hp\Documents\GitHub\App\OurApp\app\build\res\rs\debug" />
         <source path="C:\Users\hp\Documents\GitHub\App\OurApp\app\build\res\generated\debug" />
