@@ -19,9 +19,10 @@ public final class R {
         public static final int unselected=0x7f020005;
     }
     public static final class id {
-        public static final int action_settings=0x7f070002;
-        public static final int action_share=0x7f070001;
-        public static final int pager=0x7f070000;
+        public static final int action_settings=0x7f070003;
+        public static final int action_share=0x7f070002;
+        public static final int button=0x7f070000;
+        public static final int pager=0x7f070001;
     }
     public static final class layout {
         public static final int firstpage=0x7f030000;
