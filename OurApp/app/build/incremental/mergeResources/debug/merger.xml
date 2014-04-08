@@ -9,26 +9,6 @@
                 qualifiers=""
                 type="drawable" />
             <file
-                name="ic_launcher"
-                path="C:\Users\hp\Documents\GitHub\App\OurApp\app\src\main\res\drawable-hdpi\ic_launcher.png"
-                qualifiers="hdpi"
-                type="drawable" />
-            <file
-                name="ic_launcher"
-                path="C:\Users\hp\Documents\GitHub\App\OurApp\app\src\main\res\drawable-ldpi\ic_launcher.png"
-                qualifiers="ldpi"
-                type="drawable" />
-            <file
-                name="ic_launcher"
-                path="C:\Users\hp\Documents\GitHub\App\OurApp\app\src\main\res\drawable-mdpi\ic_launcher.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="ic_launcher"
-                path="C:\Users\hp\Documents\GitHub\App\OurApp\app\src\main\res\drawable-xhdpi\ic_launcher.png"
-                qualifiers="xhdpi"
-                type="drawable" />
-            <file
                 name="firstpage"
                 path="C:\Users\hp\Documents\GitHub\App\OurApp\app\src\main\res\layout\firstpage.xml"
                 qualifiers=""
@@ -51,7 +31,11 @@
             <file
                 path="C:\Users\hp\Documents\GitHub\App\OurApp\app\src\main\res\values\strings.xml"
                 qualifiers="" >
+                <string name="action_settings" >setting
+                </string>
                 <string name="app_name" >OurApp
+                </string>
+                <string name="action_share" >share
                 </string>
             </file>
             <file
@@ -100,6 +84,21 @@
             <file
                 name="selected"
                 path="C:\Users\hp\Documents\GitHub\App\OurApp\app\src\main\res\drawable\selected.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="setting"
+                path="C:\Users\hp\Documents\GitHub\App\OurApp\app\src\main\res\drawable\setting.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="main_activity_actions"
+                path="C:\Users\hp\Documents\GitHub\App\OurApp\app\src\main\res\menu\main_activity_actions.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="share"
+                path="C:\Users\hp\Documents\GitHub\App\OurApp\app\src\main\res\drawable\share.png"
                 qualifiers=""
                 type="drawable" />
         </source>
